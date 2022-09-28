@@ -14,4 +14,5 @@ jobs:
         server: ftp.kavecondo.com
         username: kavecondo
         password: ${{ secrets.KAVE_PWD }}
-        dry-run: true
+        # dry-run: true
+        server-dir: public_html/wp-content/themes/asw-kavecondo/
