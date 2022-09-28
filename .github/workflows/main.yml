@@ -15,4 +15,4 @@ jobs:
         username: kavecondo
         password: ${{ secrets.KAVE_PWD }}
         # dry-run: true
-        server-dir: public_html/wp-content/themes/asw-kavecondo
+        server-dir: public_html/wp-content/themes/asw-kavecondo/
