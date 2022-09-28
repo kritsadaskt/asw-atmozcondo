@@ -15,5 +15,5 @@ jobs:
         username: upzdev
         password: iwqA2uxx1jKEoyn
         # dry-run: true
-        # server-dir: public_html/wp-content/themes/asw-kavecondo/
-        timeout: 300000
+        server-dir: public_html/test-deploy/
+        # timeout: 300000
