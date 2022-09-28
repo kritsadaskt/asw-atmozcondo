@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: kavecondo.com
-        username: kavecondo
-        password: ${{ secrets.KAVE_PWD }}
+        server: dev.uppercuz.com
+        username: upzdev
+        password: iwqA2uxx1jKEoyn
         # dry-run: true
-        server-dir: public_html/wp-content/themes/asw-kavecondo/
+        # server-dir: public_html/wp-content/themes/asw-kavecondo/
