@@ -13,5 +13,5 @@ jobs:
       with:
         server: ftp.kavecondo.com
         username: kavecondo
-        password: ${{ KAVE_PWD }}
+        password: ${{ secrets.KAVE_PWD }}
         dry-run: true
