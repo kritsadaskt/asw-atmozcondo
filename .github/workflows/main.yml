@@ -7,13 +7,11 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
-
+    
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      uses: SamKirkland/FTP-Deploy-Action@4.3.1
       with:
         server: dev.uppercuz.com
         username: upzdev
         password: iwqA2uxx1jKEoyn
-        # dry-run: true
         server-dir: public_html/test-deploy/
-        # timeout: 300000
